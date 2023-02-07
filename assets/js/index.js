@@ -4,6 +4,8 @@ function validate() {
 
   if (email == "test@gmail.com" && password == "test") {
     alert("Login successfully");
-    return false;
+    window.location = "pagina.html";
+  } else {
+    alert("Email or Password are incorrect");
   }
 }
