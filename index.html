@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inlog Pagina</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/index.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h2 class="title"><i>Inloggen</i></h2>
+
+    <form action="pagina.html" method="post">
+        <h3>Sign in to your account</h3>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Email">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Password">
+        <div class="checkbox">
+            <input type="checkbox" name="remember" id="">
+            <span>Stay signed in for a week?</span>
+        </div>
+        <input type="submit" name="submit" value="Login" onclick="validate();">
+        <a href="#">Forgot Password?</a>
+    </form>
+
+  </div>
+</body>
+</html>

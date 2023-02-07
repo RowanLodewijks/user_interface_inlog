@@ -1,0 +1,5 @@
+email/username veld
+wachtwoord veld
+inlog knop
+wachtwoord vergeten knop
+een account maken knop
